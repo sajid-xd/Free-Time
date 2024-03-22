@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/253/420/original/abstract-geometric-3d-facet-shape-isolated-crystal-origami-style-use-for-banners-web-brochure-ad-poster-etc-low-poly-modern-background-vector.jpg);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.navbar span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar i{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.banner {
+    margin-top: 200px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 30px 200px;
+    font-family: sans-serif;
+}
+
+.banner h1 {
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.banner h4 {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+
+.btn{
+    padding: 25px 0;
+}
+
+button {
+    padding: 8px 8px;
+    margin-left: 200px;
+    border-radius: 4px;
+    background-color: rgb(119, 0, 255);
+    color: white;
+    border: none;
+}
+
+.icon {
+    display: flex;
+    gap: 15px;
+    text-align: left;
+    padding: 10px 200px;
+    font-size: 25px;
+}

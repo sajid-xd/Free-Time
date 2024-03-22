@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://www.edgeoftheweb.co.uk/images/jpg/hero/digital-marketing.jpg?hash=55bb583af9fc70cbff2b7499b59b3e66);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    color: rgb(255, 0, 106);
+}
+
+ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color:rgb(255, 0, 106);
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    
+}
+.navbar ul li{
+    font-size: 30px;
+}
+
+.banner h1{
+    display: flex;
+    justify-content: space-around;
+    padding: 330px 0;
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+}
+
